@@ -2,10 +2,10 @@
 Author: Heyzine
 Contributors: Heyzine
 Tags: flipbook, flip book, pdf flipbook, pdf viewer, slides, slideshow, presentation, embed pdf
-Requires at least: 5.0
-Tested up to: 6.7.1
-Requires PHP: 7.2
-Stable tag: 2.0.0
+Requires at least: 6.0
+Tested up to: 7.0
+Requires PHP: 7.4
+Stable tag: 2.1.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -61,6 +61,10 @@ And that's only some of the main features. There are many other options availabl
 4. Or use the Gutenberg block to embed your flipbook
 
 == Changelog ==
+= 2.1.0 = 2026-06-16
+* Compatibility with WordPress 7.0
+* Raised minimum requirements to WordPress 6.0 and PHP 7.4
+* Updated the Gutenberg block build toolchain and replaced deprecated block editor component props
 = 2.0.0 = 2024-11-27
 = 1.0.0 = 2024-01-02
 * First version

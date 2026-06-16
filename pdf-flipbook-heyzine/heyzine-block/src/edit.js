@@ -207,7 +207,7 @@ export default function Edit( { attributes, setAttributes } ) {
 						/>
 
 						<Button
-						__experimentalIsFocusable
+						accessibleWhenDisabled
 						__next40pxDefaultSize
 						disabled={ customizeDisabled }
 						variant="primary"
@@ -253,7 +253,7 @@ export default function Edit( { attributes, setAttributes } ) {
 						/>
 
 						<SelectControl
-							__next36pxDefaultSize
+							__next40pxDefaultSize
 							__nextHasNoMarginBottom
 							value={ heyzineEmbedPage }
 							options={ optionsEmbedPage }

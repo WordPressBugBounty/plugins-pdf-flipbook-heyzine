@@ -11,10 +11,10 @@
  * Plugin Name:       PDF Flipbook Heyzine
  * Plugin URI:        https://heyzine.com
  * Description:       Heyzine is a flipbook maker for realistic page turn effects or slideshows with your PDF. Customize the PDF viewer with your own brand and style and add interactivity like videos, audios, or any kind of embed to your PDF.
- * Version:           2.0.0
- * Requires at least: 5.0
- * Requires PHP:      7.2
- * Tested up to:      6.7.1
+ * Version:           2.1.0
+ * Requires at least: 6.0
+ * Requires PHP:      7.4
+ * Tested up to:      7.0
  * Author:            Heyzine
  * Developer:         Albert Balada <dev@heyzine.com>
  * Text Domain:       pdf-flipbook-heyzine
@@ -33,7 +33,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'CL_HEYZINE_VERSION', '2.0.0' );
+define( 'CL_HEYZINE_VERSION', '2.1.0' );
 define( 'CL_HEYZINE_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
 define( 'CL_HEYZINE_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
